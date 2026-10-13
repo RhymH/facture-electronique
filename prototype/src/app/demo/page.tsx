@@ -1,4 +1,8 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { NOINDEX } from "@/lib/seo";
+
+export const metadata: Metadata = { ...NOINDEX, title: "Démo : la facture en caisse" };
 
 const flow = [
   ["La caisse encaisse", "Le ticket sort avec un QR code en bas. La vente part, pour l'instant, dans l'e-reporting B2C."],

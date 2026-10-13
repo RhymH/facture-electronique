@@ -24,6 +24,18 @@
   --pos-line: #2b3547;
   --pos-text: #e8ecf3;
   --pos-muted: #8d97ab;
+
+  /* Site vitrine */
+  --ink-2: #4a5068;
+  --line-2: #c9c8c0;
+  --paper-2: #f4f3ee;
+  --indigo: #3b2beb;
+  --indigo-deep: #2a1fb5;
+  --indigo-soft: #ebe9fd;
+  --marker: #ffe34d;
+  --marker-ink: #6b5a00;
+  --mint: #17b978;
+  --mint-soft: #e2f7ee;
 }
 
 @theme inline {
@@ -48,6 +60,17 @@
   --color-pos-line: var(--pos-line);
   --color-pos-text: var(--pos-text);
   --color-pos-muted: var(--pos-muted);
+  --color-ink-2: var(--ink-2);
+  --color-line-2: var(--line-2);
+  --color-paper-2: var(--paper-2);
+  --color-indigo: var(--indigo);
+  --color-indigo-deep: var(--indigo-deep);
+  --color-indigo-soft: var(--indigo-soft);
+  --color-marker: var(--marker);
+  --color-marker-ink: var(--marker-ink);
+  --color-mint: var(--mint);
+  --color-mint-soft: var(--mint-soft);
+  --font-headline: var(--font-display), var(--font-ui), system-ui, sans-serif;
   --font-sans: var(--font-ui), system-ui, sans-serif;
   --font-receipt: var(--font-receipt), "Courier New", monospace;
 }

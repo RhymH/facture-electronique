@@ -1,4 +1,8 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { NOINDEX } from "@/lib/seo";
+
+export const metadata: Metadata = { ...NOINDEX, title: "Démo : la facture" };
 import { notFound } from "next/navigation";
 import { getSale } from "@/lib/store";
 import { computeTotals, eur, fmtDate, formatSiren, pct } from "@/lib/format";

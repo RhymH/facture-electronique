@@ -72,7 +72,7 @@ export default function CaissePage() {
     <main className="min-h-dvh bg-counter">
       <header className="flex flex-wrap items-center justify-between gap-3 px-5 py-3">
         <div className="flex items-center gap-3">
-          <Link href="/" className="text-[13px] font-medium text-ink-soft hover:text-ink">
+          <Link href="/demo" className="text-[13px] font-medium text-ink-soft hover:text-ink">
             Démo
           </Link>
           <span className="text-line">/</span>
